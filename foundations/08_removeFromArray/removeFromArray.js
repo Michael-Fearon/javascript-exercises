@@ -3,13 +3,11 @@ const removeFromArray = function(array, valToRemove) {
     let len = array.length;
     let i = 0;
     console.log('Removing: ', valToRemove);
-    while (i < len){
+    for (let i = 0; i < 5; i++){
         if (array[i] != valToRemove){
             console.log(array[i])
             newArray.push(array[i]);
-            i++;
         } else {
-            i++;
             continue;
             
         }

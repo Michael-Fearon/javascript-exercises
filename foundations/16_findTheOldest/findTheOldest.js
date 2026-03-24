@@ -1,4 +1,10 @@
-const findTheOldest = function() {
+const findTheOldest = function(array) {
+    data = {};
+    for (let i=0; i < array.length; i++){
+        entry = array[i];
+        age = entry['yearOfDeath']-entry['yearOfBirth'];
+
+    }
 
 };
 
